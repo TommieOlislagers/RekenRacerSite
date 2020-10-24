@@ -116,3 +116,21 @@ html {
 .buttonlinks {
     text-decoration: none !important;
 }
+
+.padding-mobile {
+    padding-top: 0px;
+}
+
+.padding-button {
+    margin-top: 0px;
+}
+
+@media only screen and (max-width: 768px) {
+    .padding-mobile {
+        padding-top: .5em;
+    }
+    .padding-button {
+        margin-left: 5px !important;
+        margin-top: 1em;
+    }
+  }
