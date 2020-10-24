@@ -1,0 +1,118 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.road_media {
+    position: relative;
+    background-image: url('../img/Road_Media.jpg');
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 600px;
+    object-fit: contain;
+}
+
+.navbar {
+    z-index: 99999999;
+}
+
+.road_car {
+    position: absolute;
+    bottom: 0px;
+    left: 80px;
+    animation-name: example;
+    animation-duration: 8s;
+}
+
+.answers {
+    background-color: white;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid black;
+}
+
+.question {
+    background-color: white;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+#road_answer1 {
+    position: absolute;
+    bottom: 50%;
+    left: 110px;
+}
+
+#road_answer2 {
+    position: absolute;
+    bottom: 50%;
+    left: 388px;
+}
+
+#road_answer3 {
+    position: absolute;
+    bottom: 50%;
+    left: 632px;
+}
+
+#road_question {
+    position: absolute;
+    bottom: 90%;
+    left: 360px;
+}
+
+@keyframes example {
+    0% {
+        bottom: 0px;
+        left: 80px;
+    }
+
+    20% {
+        bottom: 0px;
+        left: 360px;
+    }
+
+    40% {
+        bottom: 0px;
+        left: 600px;
+    }
+
+    60% {
+        bottom: 0px;
+        left: 360px;
+    }
+
+    100% {
+        bottom: 40%;
+        left: 360px;
+    }
+}
+
+.swimlane:nth-child(even) {
+
+    background-color: initial;
+}
+
+.swimlane:nth-child(odd) {
+
+    background-color: #f5f5f5;
+}
+
+.swimlane {
+    padding: 6rem 0 6rem;
+    min-height: 30rem;
+    position: relative;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    filter: invert(1);
+}
+
+#footer-vertical {
+    height: 99px;
+}
+
+.buttonlinks {
+    text-decoration: none !important;
+}
